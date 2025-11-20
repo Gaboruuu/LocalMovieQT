@@ -128,6 +128,9 @@
     <Text Include="Watchlist.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
     <None Include="WatchListCSV.csv" />
     <None Include="WatchListHTML.html" />
   </ItemGroup>

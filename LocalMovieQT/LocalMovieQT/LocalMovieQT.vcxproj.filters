@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{0387d256-7dc6-4b75-a06b-12e45810b91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{6bae3f97-823a-4f1e-8fc8-10a524b80ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repo">
+      <UniqueIdentifier>{06f509c7-5997-4f62-8b36-d949b72ffcb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repo">
+      <UniqueIdentifier>{7d071f3d-da4e-4065-a2eb-5f0630d4a6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domain">
+      <UniqueIdentifier>{00d500ef-775f-405e-b477-b798943a0cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{842b2742-c66e-4ce2-9f96-7fb025767060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Files">
+      <UniqueIdentifier>{fb036ea7-8c40-47b2-b5db-48906ccdbfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Export">
+      <UniqueIdentifier>{1d00d0dd-6aa7-472e-b729-0a234da0a3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validater">
+      <UniqueIdentifier>{e5d35658-0d3c-4c25-ba42-5f6df2efbdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{94e04617-dcb8-4c45-b709-99e56e8f9ab1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UserScreen.h">
+      <Filter>Form Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AdminScreen.h">
+      <Filter>Form Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WatchlistTableModel.h">
+      <Filter>Header Files\Export</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceAdmin.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceUser.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieRepository.cpp">
+      <Filter>Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchListRepository.cpp">
+      <Filter>Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="UserScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MovieRepository.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="WatchListRepository.h">
+      <Filter>Header Files\Repo</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceAdmin.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceUser.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVWatchListViewer.h">
+      <Filter>Header Files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLWatchListViewer.h">
+      <Filter>Header Files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="WatchListViewer.h">
+      <Filter>Header Files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoException.h">
+      <Filter>Header Files\Validater</Filter>
+    </ClInclude>
+    <ClInclude Include="Validate.h">
+      <Filter>Header Files\Validater</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoRedo.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Movies.txt">
+      <Filter>Resource Files\Files</Filter>
+    </Text>
+    <Text Include="test_movies.txt">
+      <Filter>Resource Files\Files</Filter>
+    </Text>
+    <Text Include="test_wlist.txt">
+      <Filter>Resource Files\Files</Filter>
+    </Text>
+    <Text Include="Watchlist.txt">
+      <Filter>Resource Files\Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WatchListCSV.csv">
+      <Filter>Resource Files\Files</Filter>
+    </None>
+    <None Include="WatchListHTML.html">
+      <Filter>Resource Files\Files</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Form Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StartScreen.h">
+      <Filter>Form Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
